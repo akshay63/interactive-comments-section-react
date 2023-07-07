@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" modified="2023-07-07T08:00:26.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3awMFspk4cmpaRaQYfJ4" version="21.5.2" type="device" pages="3">
+  <diagram name="Component Hierarchy" id="7DYMGTkKFf8j7YMZLxud">
+    <mxGraphModel dx="1034" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FNum5DHNpem7Nk8bnZLc-1" target="FNum5DHNpem7Nk8bnZLc-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FNum5DHNpem7Nk8bnZLc-1" target="FNum5DHNpem7Nk8bnZLc-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-1" value="App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-2" value="CommentCreate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FNum5DHNpem7Nk8bnZLc-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-4" value="CommentList" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FNum5DHNpem7Nk8bnZLc-6" target="FNum5DHNpem7Nk8bnZLc-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="300" />
+              <mxPoint x="405" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-6" value="CommentReplyShow" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="270" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FNum5DHNpem7Nk8bnZLc-10" target="FNum5DHNpem7Nk8bnZLc-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-10" value="CommentEditShow" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-12" value="CommentReply" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="345" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-14" value="CommentEdit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FNum5DHNpem7Nk8bnZLc-19" target="FNum5DHNpem7Nk8bnZLc-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FNum5DHNpem7Nk8bnZLc-19" target="FNum5DHNpem7Nk8bnZLc-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNum5DHNpem7Nk8bnZLc-19" value="CommentShow" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AsItvRZhFtm1wOQIznrx" name="Default State">
+    <mxGraphModel dx="1034" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jT0DUU1wfFYxmVWltlLr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jT0DUU1wfFYxmVWltlLr-1" target="jT0DUU1wfFYxmVWltlLr-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0DUU1wfFYxmVWltlLr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jT0DUU1wfFYxmVWltlLr-1" target="jT0DUU1wfFYxmVWltlLr-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0DUU1wfFYxmVWltlLr-1" value="CommentCreate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0DUU1wfFYxmVWltlLr-2" value="#Comment1(default)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0DUU1wfFYxmVWltlLr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jT0DUU1wfFYxmVWltlLr-4" target="jT0DUU1wfFYxmVWltlLr-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0DUU1wfFYxmVWltlLr-4" value="#Comment2(default)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0DUU1wfFYxmVWltlLr-6" value="#Reply(default)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B5N-Ft9YryCRtW0szvVg" name="Page-3">
+    <mxGraphModel dx="1034" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jd_4ufDXh8AxCddlP7nt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5whnt5FsMupQYe8H1Ynx-1" target="jd_4ufDXh8AxCddlP7nt-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5whnt5FsMupQYe8H1Ynx-1" value="User writes text in the form" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jd_4ufDXh8AxCddlP7nt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5whnt5FsMupQYe8H1Ynx-2" target="jd_4ufDXh8AxCddlP7nt-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5whnt5FsMupQYe8H1Ynx-2" value="User click on submit button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5whnt5FsMupQYe8H1Ynx-4" value="Comment component is shown" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5whnt5FsMupQYe8H1Ynx-5" value="User click on edit button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jd_4ufDXh8AxCddlP7nt-1" value="ShowEdit component is shown" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jd_4ufDXh8AxCddlP7nt-2" value="state - comments = [{id=&quot;&quot;, text:&quot;&quot;}]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jd_4ufDXh8AxCddlP7nt-3" value="State" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;size=-10;" parent="1" vertex="1">
+          <mxGeometry x="440" y="42.5" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jd_4ufDXh8AxCddlP7nt-5" value="Event Handler" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;size=-10;" parent="1" vertex="1">
+          <mxGeometry x="440" y="82.5" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UO89ymYGKugjexiGC2ht-2" value="User click on reply button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UO89ymYGKugjexiGC2ht-3" value="Reply component is shown" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

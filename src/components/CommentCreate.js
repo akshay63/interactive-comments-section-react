@@ -11,6 +11,7 @@ function CommentCreate({ onCreate }) {
     const oldDate = new Date();
     const oldMoment = moment(oldDate).fromNow();
     console.log(oldMoment);
+
     onCreate(text, oldMoment);
     setText("");
   }

@@ -25,6 +25,25 @@ function App() {
     },
   ]);
 
+  const [replies, setReplies] = useState([
+    {
+      id: 3,
+      text: "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.",
+      username: "ramsesmiron",
+      createdAt: "1 week ago",
+      image: "/src/img/avatars/image-ramsesmiron.png",
+      userCode: "others",
+    },
+    {
+      id: 4,
+      text: "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
+      username: "juliusomo",
+      createdAt: "2 days ago",
+      image: "/src/img/avatars/image-juliusomo.png",
+      userCode: "others",
+    },
+  ]);
+
   console.log(moment().format());
 
   let [date, setDate] = useState("");
@@ -76,6 +95,23 @@ function App() {
     });
 
     setComments(updatedText);
+  }
+
+  function createReplies(text, replyTo) {
+    const updatedReplies = [
+      ...replies,
+      {
+        id: Math.round(Math.random() * 9999),
+        text,
+        username: "akshaymeshram",
+        createdAt: date,
+        image: "./img/mypic.jpg",
+        userCode: "my-profile",
+        replyTo,
+      },
+    ];
+
+    setReplies(updatedReplies);
   }
 
   return (

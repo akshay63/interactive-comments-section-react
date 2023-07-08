@@ -12,7 +12,7 @@ import ramsayImg from "../img/avatars/image-ramsesmiron.png";
 import julioImg from "../img/avatars/image-juliusomo.png";
 import myImg from "../img/mypic.jpg";
 
-function CommentShow({ comment, onDelete, onEdit, onReply }) {
+function ReplyEdit({ comment, onDelete, onEdit, onReply }) {
   const [showEdit, setShowEdit] = useState(false);
   const [showReply, setShowReply] = useState(false);
 
@@ -34,7 +34,6 @@ function CommentShow({ comment, onDelete, onEdit, onReply }) {
   }
 
   function handleSubmitReply(id, newText) {
-    console.log(showReply);
     setShowReply(false);
     onReply(id, newText);
   }
@@ -55,18 +54,9 @@ function CommentShow({ comment, onDelete, onEdit, onReply }) {
   let contentReply = "";
   if (showReply) {
     contentReply = (
-      <ReplyCreate
-        onSubmit={handleSubmitReply}
-        comment={comment}
-        closeFun={handleReplyClick}
-      />
+      <ReplyCreate onSubmit={handleSubmitReply} comment={comment} />
     );
   }
-
-  // let replyCont = "";
-  // if (reply) {
-  //   replyCont = <ReplyShow />;
-  // }
 
   //Profile Image Set
   function imageSet(id) {
@@ -94,7 +84,7 @@ function CommentShow({ comment, onDelete, onEdit, onReply }) {
 
   //CRUD Buttons
   function btnDisplay(id) {
-    console.log(comment.id, id, showEdit, showReply);
+    // console.log(comment.id, id, showEdit, showReply);
 
     if (id !== 1 && id !== 2) {
       return (
@@ -182,4 +172,4 @@ function CommentShow({ comment, onDelete, onEdit, onReply }) {
   );
 }
 
-export default CommentShow;
+export default ReplyEdit;

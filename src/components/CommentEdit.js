@@ -15,7 +15,7 @@ function CommentEdit({ comment, onSubmit }) {
   const textAreaFormEdit = document.querySelector(".comment-edit .textarea");
   // console.log(textAreaFormEdit);
 
-  const [text, setText] = useState(comment.text + " ");
+  const [text, setText] = useState(`${comment.text} `);
 
   function handleChange(e) {
     return setText(e.target.value);

@@ -1,20 +1,12 @@
 import { useState } from "react";
 import SharedTextarea from "./SharedTextarea";
 import Button from "./Button";
+import ReplyShow from "./ReplyShow";
 
-function CommentReply({ comment, onSubmit }) {
-  //   const updatedUsername = (
-  //     <span className="modBlue font-bold">@ {comment.username}</span>
-  //   );
-  //   const textAreaFormEdit = document.querySelector(".comment-edit .textarea");
-  //   console.log(textAreaFormEdit);
-  //   if (!updatedUsername) {
-  //     textAreaFormEdit.insertAdjacentHTML("afterend", updatedUsername);
-  //   }
+function ReplyCreate({ comment, onSubmit, closeFun }) {
+  const [reply, setReply] = useState(false);
 
-  const textAreaFormReply = document.querySelector(".comment-reply .textarea");
-
-  const [text, setText] = useState(`@${comment.username}`);
+  const [text, setText] = useState(`@${comment.username} `);
 
   function handleChange(e) {
     return setText(e.target.value);
@@ -22,8 +14,13 @@ function CommentReply({ comment, onSubmit }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    onSubmit(comment.id, text);
-    console.log(text);
+    // setReply(true);
+    // closeFun();
+    setReply(true);
+    console.log(text, reply);
+    <ReplyShow text={text} id={comment.id} onSubmit={onSubmit} />;
+
+    // onSubmit(comment.id, text);
   }
 
   return (
@@ -45,4 +42,4 @@ function CommentReply({ comment, onSubmit }) {
   );
 }
 
-export default CommentReply;
+export default ReplyCreate;
